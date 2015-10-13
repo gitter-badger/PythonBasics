@@ -1,6 +1,7 @@
+"""Выводит первые N простых чисел в виде списка"""
 a = []
 b = 1
-n = int(input())
+n = int(input('Input N '))
 while len(a) < n:
 	isprime = bool(1)
 	for i in a[1:]:
