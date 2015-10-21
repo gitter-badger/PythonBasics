@@ -4,3 +4,4 @@ for i in range(1,101):
 	elif i % 5 == 0 : print('Buzz') 
 	elif i % 3 == 0 : print('Fizz') 
 	else : print(i)
+### а теперь  тоже самое, только без elif ###
