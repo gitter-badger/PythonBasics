@@ -7,7 +7,7 @@ while i != len(a):
 	a = set(a)
 	b = {n*c for c in range(2, m // n + 1)}
 	a = list(a - b)
-	a.sort()
 	i += 1
+a.sort()
 print(a)
 ### Простые числа до числа N по решету Эратосфена ###
